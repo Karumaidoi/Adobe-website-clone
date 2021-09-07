@@ -1,0 +1,56 @@
+.adobe-dexter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    &__img {
+
+        img {
+            width: 4rem;
+            height: auto;
+            margin: 10px auto;
+        }
+    }
+
+    &__text {
+
+        p {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            text-align: center;
+            align-self: center;
+            //@include: 8rem;
+        }
+    }
+
+    &__btn {
+
+        a {
+            text-decoration: none;
+            color: var(--color-blue);
+            display: inline-block;
+            font-weight: 700;
+            text-align: center;
+            font-size: 1.6rem;
+            margin-top: 2rem;
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+                color: var(--color-blue);
+                display: inline-block;
+                font-weight: 700;
+                text-align: center;
+                font-size: 1.6rem;
+                margin-top: 2rem;
+            }
+
+            &:hover {
+                color: var(--color-blue-dark);
+            }
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.plan-box__image {
+    width: 100%;
+    height: 200px;
+
+}
+
+.plan-box {
+    background-color: var(--color-white);
+    border: 1px solid #32323241;
+    border-radius: 2px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        background-color: var(--color-white);
+    }
+
+    &__logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            margin-right: 2rem;
+            padding: 1rem;
+        }
+    }
+
+    &__icons {
+        align-items: center;
+
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        img {
+            background-color: var(--var-primary-main);
+            margin-right: 1rem;
+        }
+    }
+
+    &__paragraph {
+
+        p {
+            font-size: 1.4rem;
+            padding: 2.5rem 12px;
+            width: 90%;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--color-blue);
+        }
+
+        div {
+            border-bottom: 1px solid #3232325b;
+            padding: 1.5rem;
+            width: 90%;
+            display: block;
+
+            margin: 0 auto;
+
+        }
+    }
+}
+

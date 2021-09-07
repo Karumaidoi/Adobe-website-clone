@@ -1,0 +1,22 @@
+.plan-box-content {
+    display: flex;
+
+    &__img {
+        //width: 12rem;
+        height: auto;
+        margin-right: 2rem;
+
+        img {
+            width: 4rem;
+        }
+    }
+
+    &__text {
+
+        p {
+            width: 75%;
+        }
+    }
+
+    
+}

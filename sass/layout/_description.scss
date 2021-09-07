@@ -1,0 +1,28 @@
+.content-box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    padding: 20px;
+    color: var(--color-primary-main);
+    border-radius: 3px;
+
+    &__text {
+        margin-bottom: 20px;
+    }
+
+    &__description {
+        margin-bottom: 3rem;
+
+        div {
+            padding: 15px;
+            border-bottom: 1px solid #32323234;
+            margin-top: 1rem;
+        }
+    }
+
+    &__cta {
+        align-self: flex-end;
+    }
+
+    
+}

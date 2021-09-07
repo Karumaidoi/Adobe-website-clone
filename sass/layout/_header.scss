@@ -1,0 +1,25 @@
+.header-image {
+    width: 300px;
+    height: auto;
+    fill: red;
+    display: block;
+
+    margin: 40px auto;
+}
+
+.logo {
+    height: auto;
+    width: 60px;
+    fill: var(--color-primary-main);
+    display: block;
+
+    margin-top: 60px;
+}
+
+.long-copy {
+    font-size: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    width: 85%;
+    font-weight: 500;
+}
+

@@ -1,0 +1,109 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    //width: 1140px;
+    margin: 0rem auto;
+    padding: 40px 20px;
+    background-color: var(--color-white);
+}
+
+
+
+.link__item {
+    display: flex;
+
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+            text-transform: capitalize;
+            font-size: 1.4rem;
+            padding: 2rem;
+            color: var(--color-primary-main);
+            font-weight: 700;
+            text-align: center;
+            border-bottom: 2px solid transparent;
+            transition: all .2s;
+
+            &:link,
+            &:visited {
+                text-decoration: none;
+                font-size: 1.4rem;
+                padding: 1.5rem;
+                color: var(--color-primary-main);
+                font-weight: 700;
+                text-align: center 
+            }
+
+            &:hover,
+            &:active {
+                border-bottom: 2px solid var(--color-primary-main);
+            }
+        }
+    }
+}
+
+.adobe-logo {
+    display: flex;
+
+    img {
+        margin-right: 1.2rem;
+    }
+}
+
+.adobe-icons {
+    display: flex;
+    //align-content: center;
+
+    a {
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 1.4rem;
+        //padding: 2rem;
+        color: var(--color-primary-main);
+        font-weight: 700;
+        text-align: center;
+        //border-bottom: 2px solid transparent;
+        transition: all .2s;
+
+        &:link,
+        &:visited {
+            text-decoration: none;
+            font-size: 1.4rem;
+            padding-left: 2rem;
+            //padding: 1.5rem;
+            color: var(--color-primary-main);
+            font-weight: 700;
+            text-align: center 
+        }
+
+        &:hover,
+        &:active {
+            color: var(--color-blue);
+        }
+    }
+}
+
+.icon-small {
+    font-size: 1.8rem;
+    color: var(--color-primary-main);
+
+    &:hover {
+        color: var(--color-green);
+    }
+}
+
+.navigation2 {
+    display: flex;
+    justify-content: space-between;
+    //width: 1140px;
+    margin: 0rem auto;
+    //padding: 40px 20px;
+    //background-color: var(--color-white);
+}
+
+.adobe-wrapper {
+    display: flex;
+}
+   
